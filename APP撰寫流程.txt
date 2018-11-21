@@ -1,0 +1,20 @@
+一.
+
+1.Internet 權限 colors,styles設計
+
+2.register.xml  activity findviews設計 
+
+3.User資料庫建置 
+
+4.register.php , connnect.php 設計
+
+5.完成Regist方法與除錯
+
+ BUG:com.android.volley.clienterror ， URL顯示 was not found on server.
+ 解決:AppServ\www內有phpinfo.php，因此在此隨意創個HTML檔案測試是否能開啟，
+     測試OK後把android_register_login資料夾移到 AppServ\www 內即可正常操作
+
+
+PART2.
+
+1.New LoginActivity And xml設計 Manifests微調
